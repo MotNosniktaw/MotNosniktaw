@@ -49,6 +49,7 @@ p {
 li {
     padding: 5px;
     height: 40px;
+    font-size: 1.7vw;
 }
 
 ul {
@@ -60,7 +61,6 @@ ul {
 a {
     text-decoration: none;
     color: rgb(240, 240, 210);
-    font-size: 1.7vw;
 }
 
 li a:hover {
@@ -308,7 +308,6 @@ a:hover span {
 
 .mobile-nav-target {
     position: absolute;
-    top: -10vh;
     width:1px;
     height: 100px;
 }
@@ -385,6 +384,7 @@ a:hover span {
 
     .mobile-nav-target {
         display:block;
+        top: -10vh;
     }
 }
 
