@@ -106,6 +106,7 @@ a:hover span {
 .right-item-container {
     width: 100%;
     border: 1px solid transparent;
+    position: relative;
 }
 
 .port-container {
@@ -247,7 +248,6 @@ a:hover span {
 }
 
 .mobile-footer {
-    height: 10vh;
 }
 
 .nav-mobile-bottom {
@@ -287,9 +287,11 @@ a:hover span {
     display: none;
 }
 
-.ie-nav-fix {
-    height: 10vh;
-    display: none;
+.mobile-nav-target {
+    position: absolute;
+    top: -10vh;
+    width:1px;
+    height: 100px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -362,8 +364,8 @@ a:hover span {
         font-size: 4rem;
     }
 
-    .ie-nav-fix {
-        display: block;
+    .mobile-nav-target {
+        display:block;
     }
 }
 
