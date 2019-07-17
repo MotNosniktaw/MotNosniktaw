@@ -18,7 +18,16 @@ html {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 8rem;
+    position: relative;
+    top: 40%;
+}
+
+h1 ~ p {
+    font-size:1.4rem;
+    position:absolute;
+    bottom: 20%;
+    margin: 0 14%;
 }
 
 h2 {
@@ -280,6 +289,20 @@ a:hover span {
 .ie-nav-fix {
     height: 10vh;
     display: none;
+}
+
+@media screen and (max-width: 900px){
+    h1 {
+        font-size: 7rem;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    h1 {
+        font-size: 6rem;
+        margin-top: 20%;
+    }
 }
 
 @media screen and (max-width: 600px) {
