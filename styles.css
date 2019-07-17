@@ -38,6 +38,10 @@ h3 {
     font-size: 2rem;
 }
 
+h4 {
+    font-size: 1.3rem;
+}
+
 p {
     font-size: 1rem;
 }
@@ -188,6 +192,31 @@ a:hover span {
     margin: 30px 5% 10px 5%;
 }
 
+.other-container {
+    overflow: auto;
+}
+
+.other-item {
+    width: 30%;
+    margin: 1.5%;
+    padding: 2%;
+    float: left;
+    border: solid 1px rgb(60, 60, 60);
+    background-color: rgba(240, 200, 150, 0.5);
+    position: relative;
+}
+
+.other-item img {
+    width: 90%;
+    margin-top: 15px;
+}
+
+
+
+.other-item p {
+    font-size: 0.6rem;
+}
+
 #Home h1 {
     height: 70%;
     margin: 15% 0;
@@ -225,16 +254,6 @@ a:hover span {
 .social-button-mobile {
     width: 13%;
     margin: 3%;
-}
-
-.contact {
-    padding: 2vw 2vw;
-    display: none;
-    background-color: rgba(131, 105, 56, 0.8);
-}
-
-.contact p {
-    margin: 0 auto;
 }
 
 #about-container-container {
