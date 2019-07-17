@@ -52,6 +52,10 @@ li {
     font-size: 1.7vw;
 }
 
+#skills-list li {
+    font-size: 1.4rem;
+}
+
 ul {
 
     list-style: none;
