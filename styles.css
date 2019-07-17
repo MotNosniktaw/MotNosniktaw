@@ -18,13 +18,13 @@ html {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 10rem;
     position: relative;
     top: 40%;
 }
 
 h1 ~ p {
-    font-size:1.4rem;
+    font-size:2.3rem;
     position:absolute;
     bottom: 20%;
     margin: 0 14%;
@@ -289,6 +289,16 @@ a:hover span {
 .ie-nav-fix {
     height: 10vh;
     display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h1 ~ p {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 900px){
