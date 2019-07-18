@@ -24,8 +24,8 @@ h1 {
 }
 
 h1 ~ p {
-    font-size:2.3rem;
-    position:absolute;
+    font-size: 2.3rem;
+    position: absolute;
     bottom: 20%;
     margin: 0 14%;
 }
@@ -224,13 +224,13 @@ a:hover span {
 
 .other-item h4 {
     width: 96%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .other-item p {
     font-size: 0.6rem;
-    width:95%;
-    overflow:hidden;
+    width: 95%;
+    overflow: hidden;
 }
 
 #Home h1 {
@@ -280,9 +280,6 @@ a:hover span {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-}
-
-.mobile-footer {
 }
 
 .nav-mobile-bottom {
@@ -407,7 +404,7 @@ a:hover span {
     }
 
     .mobile-nav-target {
-        display:block;
+        display: block;
         top: -10vh;
     }
 }
