@@ -162,10 +162,13 @@ a:hover span {
     background-color: rgba(240, 200, 150, 0.5);
     position: relative;
     white-space: nowrap;
+    height: 90vh;
 }
 
 .port-item img {
     width: 90%;
+    height: 80%;
+    object-fit: cover;
     margin-top: 15px;
 }
 
