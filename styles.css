@@ -24,7 +24,7 @@ h1 {
 }
 
 h1 ~ p {
-    font-size: 2.3rem;
+    font-size: 2rem;
     position: absolute;
     bottom: 20%;
     margin: 0 14%;
@@ -52,10 +52,6 @@ li {
     font-size: 1.6vw;
 }
 
-#skills-list li {
-    font-size: 1.4rem;
-}
-
 ul {
 
     list-style: none;
@@ -80,6 +76,14 @@ a span {
 
 a:hover span {
     display: inline;
+}
+
+path {
+    fill: sandybrown;
+}
+
+polygon {
+    fill: sandybrown;
 }
 
 .about-container {
@@ -153,6 +157,28 @@ a:hover span {
     padding: 20px;
 }
 
+#skills-list {
+    font-size: 1.4rem;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    width: 25%;
+    float: left;
+}
+
+.skill-item p {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.tech-logo {
+    fill: sandybrown;
+}
+
 .port-item {
     width: 45%;
     margin: 2.5%;
@@ -196,6 +222,11 @@ a:hover span {
 
 .port-item:hover .port-item-hidden {
     display: block;
+}
+
+.port-item-hidden h3 {
+    width: 90%;
+    overflow-wrap: normal;
 }
 
 .port-item-hidden p {
@@ -346,7 +377,7 @@ a:hover span {
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
     h1 {
         font-size: 6rem;
         margin-top: 20%;
